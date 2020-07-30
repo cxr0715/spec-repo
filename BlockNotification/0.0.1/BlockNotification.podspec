@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :text => 'LICENSE'}
   s.author       = { "perf" => "fangyang@yy.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/cxr0715/BlockNotificationPrivate.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/cxr0715/BlockNotificationPrivate.git", :commit => "cedf10e5f5fe27e0f8a2745b574b77679da3d9c6" }
   
   s.requires_arc = ['BlockNotification/ARC/*.{h,m,mm,cpp}']
   s.source_files  = 'BlockNotification/ARC/*.{h,m,mm,cpp}','BlockNotification/Non_ARC/*.{h,m}'
